@@ -1,2 +1,13 @@
-# Simulacion_Abasto
-Simulacion de ventas por semana, proyección de abasto y simulación de siguientes semanas
+# Conversion + Pronostico estacional
+
+**Defaults:** 12 meses de proyeccion y **10%** de crecimiento mensual (ajustables).
+
+## Requisitos
+```
+pip install streamlit pandas numpy matplotlib openpyxl xlrd
+```
+
+## Ejecucion
+```
+streamlit run app_pronostico_estacional.py
+```
